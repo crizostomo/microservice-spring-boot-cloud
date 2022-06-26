@@ -1,0 +1,16 @@
+Run this command in the CMD inside the desired package: 
+mvn spring-boot:build-image -DskipTests 
+
+or 
+
+Run a Maven goal from the Run Anything window﻿
+In the Maven tool window, on the toolbar, click the Execute Maven Goal button. 
+Alternatively, press Ctrl twice to open the Run Anything window.
+
+Run Anything dialog
+In the Run Anything window, start typing a name of the goal you want to execute. 
+The window also displays a list of recent Maven goal entries.
+
+If you have a multi-module project and need to execute a goal from the specific module 
+then in the Run Anything window, in the top-right corner, from the Project list, select 
+a module, or a directory you need and in the search field enter the goal's name.
